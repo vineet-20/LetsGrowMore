@@ -1,0 +1,41 @@
+body {
+    background-color:rgb(127, 91, 172);
+  }
+  
+  form {
+    width: 400px;
+    margin: 0 auto;
+    padding: 50px;
+    border: 1px solid #9b8bb6;
+    border-radius: 10px;
+    background-color: rgb(188, 166, 198);
+  }
+  
+  label {
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #5c04f5;
+  }
+  
+  input[type="submit"] {
+    background-color: #25a32a;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #18641b;
+  }
